@@ -8,6 +8,12 @@ This sample demonstrates UIKit integration with `ReRuneCore` using a live OTA en
 2. Set `RERUNE_OTA_PUBLISH_ID` to a valid publish id.
 3. In Xcode, assign `Local.xcconfig` to the app target build configuration.
 
+## Run
+
+- Open `ReRuneUIKitExample.xcodeproj`.
+- Select scheme `ReRuneUIKitExample`.
+- Run on an iOS 15+ simulator or device.
+
 ## Behavior
 
 - App calls `ReRune.setup(...)` on launch.

@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A1111111111111111111101 /* ReRuneSwiftUIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1111111111111111111202 /* ReRuneSwiftUIExampleApp.swift */; };
+		2A1111111111111111111102 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1111111111111111111203 /* ContentView.swift */; };
+		2A1111111111111111111103 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A1111111111111111111204 /* Localizable.strings */; };
+		2A1111111111111111111104 /* ReRuneCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2A1111111111111111111902 /* ReRuneCore */; };
+		2A1111111111111111111105 /* ReRuneSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2A1111111111111111111903 /* ReRuneSwiftUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A1111111111111111111201 /* ReRuneSwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReRuneSwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1111111111111111111202 /* ReRuneSwiftUIExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReRuneSwiftUIExampleApp.swift; sourceTree = "<group>"; };
+		2A1111111111111111111203 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A1111111111111111111204 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2A1111111111111111111205 /* Example.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Example.xcconfig; sourceTree = "<group>"; };
+		2A1111111111111111111206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A1111111111111111111301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1111111111111111111104 /* ReRuneCore in Frameworks */,
+				2A1111111111111111111105 /* ReRuneSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A1111111111111111111401 = {
+			isa = PBXGroup;
+			children = (
+				2A1111111111111111111403 /* Sources */,
+				2A1111111111111111111404 /* Resources */,
+				2A1111111111111111111405 /* Config */,
+				2A1111111111111111111206 /* Info.plist */,
+				2A1111111111111111111402 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A1111111111111111111402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A1111111111111111111201 /* ReRuneSwiftUIExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A1111111111111111111403 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2A1111111111111111111202 /* ReRuneSwiftUIExampleApp.swift */,
+				2A1111111111111111111203 /* ContentView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		2A1111111111111111111404 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A1111111111111111111204 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2A1111111111111111111405 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				2A1111111111111111111205 /* Example.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A1111111111111111111501 /* ReRuneSwiftUIExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A1111111111111111111802 /* Build configuration list for PBXNativeTarget "ReRuneSwiftUIExample" */;
+			buildPhases = (
+				2A1111111111111111111301 /* Frameworks */,
+				2A1111111111111111111303 /* Sources */,
+				2A1111111111111111111302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReRuneSwiftUIExample;
+			packageProductDependencies = (
+				2A1111111111111111111902 /* ReRuneCore */,
+				2A1111111111111111111903 /* ReRuneSwiftUI */,
+			);
+			productName = ReRuneSwiftUIExample;
+			productReference = 2A1111111111111111111201 /* ReRuneSwiftUIExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A1111111111111111111601 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					2A1111111111111111111501 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 2A1111111111111111111801 /* Build configuration list for PBXProject "ReRuneSwiftUIExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A1111111111111111111401;
+			packageReferences = (
+				2A1111111111111111111901 /* XCLocalSwiftPackageReference "../.." */,
+			);
+			productRefGroup = 2A1111111111111111111402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A1111111111111111111501 /* ReRuneSwiftUIExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A1111111111111111111302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1111111111111111111103 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A1111111111111111111303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1111111111111111111101 /* ReRuneSwiftUIExampleApp.swift in Sources */,
+				2A1111111111111111111102 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A1111111111111111111701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A1111111111111111111702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2A1111111111111111111703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A1111111111111111111205 /* Example.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.rerune.examples.swiftui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A1111111111111111111704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A1111111111111111111205 /* Example.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.rerune.examples.swiftui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A1111111111111111111801 /* Build configuration list for PBXProject "ReRuneSwiftUIExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1111111111111111111701 /* Debug */,
+				2A1111111111111111111702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A1111111111111111111802 /* Build configuration list for PBXNativeTarget "ReRuneSwiftUIExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1111111111111111111703 /* Debug */,
+				2A1111111111111111111704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		2A1111111111111111111901 /* XCLocalSwiftPackageReference "../.." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A1111111111111111111902 /* ReRuneCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A1111111111111111111901 /* XCLocalSwiftPackageReference "../.." */;
+			productName = ReRuneCore;
+		};
+		2A1111111111111111111903 /* ReRuneSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A1111111111111111111901 /* XCLocalSwiftPackageReference "../.." */;
+			productName = ReRuneSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2A1111111111111111111601 /* Project object */;
+}

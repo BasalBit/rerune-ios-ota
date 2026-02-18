@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A1111111111111111111101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1111111111111111111202 /* AppDelegate.swift */; };
+		1A1111111111111111111102 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1111111111111111111203 /* ViewController.swift */; };
+		1A1111111111111111111103 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A1111111111111111111204 /* Localizable.strings */; };
+		1A1111111111111111111104 /* ReRuneCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1A1111111111111111111902 /* ReRuneCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A1111111111111111111201 /* ReRuneUIKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReRuneUIKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1111111111111111111202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A1111111111111111111203 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A1111111111111111111204 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1A1111111111111111111205 /* Example.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Example.xcconfig; sourceTree = "<group>"; };
+		1A1111111111111111111206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A1111111111111111111301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1111111111111111111104 /* ReRuneCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A1111111111111111111401 = {
+			isa = PBXGroup;
+			children = (
+				1A1111111111111111111403 /* Sources */,
+				1A1111111111111111111404 /* Resources */,
+				1A1111111111111111111405 /* Config */,
+				1A1111111111111111111206 /* Info.plist */,
+				1A1111111111111111111402 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A1111111111111111111402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A1111111111111111111201 /* ReRuneUIKitExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A1111111111111111111403 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1A1111111111111111111202 /* AppDelegate.swift */,
+				1A1111111111111111111203 /* ViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1A1111111111111111111404 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A1111111111111111111204 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1A1111111111111111111405 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1A1111111111111111111205 /* Example.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A1111111111111111111501 /* ReRuneUIKitExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A1111111111111111111802 /* Build configuration list for PBXNativeTarget "ReRuneUIKitExample" */;
+			buildPhases = (
+				1A1111111111111111111301 /* Frameworks */,
+				1A1111111111111111111303 /* Sources */,
+				1A1111111111111111111302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReRuneUIKitExample;
+			packageProductDependencies = (
+				1A1111111111111111111902 /* ReRuneCore */,
+			);
+			productName = ReRuneUIKitExample;
+			productReference = 1A1111111111111111111201 /* ReRuneUIKitExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A1111111111111111111601 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					1A1111111111111111111501 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 1A1111111111111111111801 /* Build configuration list for PBXProject "ReRuneUIKitExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A1111111111111111111401;
+			packageReferences = (
+				1A1111111111111111111901 /* XCLocalSwiftPackageReference "../.." */,
+			);
+			productRefGroup = 1A1111111111111111111402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A1111111111111111111501 /* ReRuneUIKitExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A1111111111111111111302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1111111111111111111103 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A1111111111111111111303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1111111111111111111101 /* AppDelegate.swift in Sources */,
+				1A1111111111111111111102 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A1111111111111111111701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A1111111111111111111702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1A1111111111111111111703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A1111111111111111111205 /* Example.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.rerune.examples.uikit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A1111111111111111111704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A1111111111111111111205 /* Example.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.rerune.examples.uikit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A1111111111111111111801 /* Build configuration list for PBXProject "ReRuneUIKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A1111111111111111111701 /* Debug */,
+				1A1111111111111111111702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A1111111111111111111802 /* Build configuration list for PBXNativeTarget "ReRuneUIKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A1111111111111111111703 /* Debug */,
+				1A1111111111111111111704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		1A1111111111111111111901 /* XCLocalSwiftPackageReference "../.." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A1111111111111111111902 /* ReRuneCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A1111111111111111111901 /* XCLocalSwiftPackageReference "../.." */;
+			productName = ReRuneCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1A1111111111111111111601 /* Project object */;
+}
